@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\gameloop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mainscene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\block_1x1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bushes_3x1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brick_1x1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bushes_4x1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bushes_5x1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\castle_5x5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cloud_3x2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cloud_4x2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cloud_5x2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flag_2x1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flagpole_1x9.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\floor_1x1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\greenball_1x1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hill_3x2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hill_5x3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\secretbox_1x1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tube_2x2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tube_2x3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tube_2x4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spritefactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mario.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\direction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flipimage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\overlap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\collision.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spritetype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bricksecretbox_1x1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\gameloop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mainscene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\block_1x1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bushes_3x1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brick_1x1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bushes_4x1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bushes_5x1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\castle_5x5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cloud_3x2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cloud_4x2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cloud_5x2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flag_2x1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flagpole_1x9.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\floor_1x1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\greenball_1x1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hill_3x2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hill_5x3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\secretbox_1x1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tube_2x2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tube_2x3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tube_2x4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spritefactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mario.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flipimage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\overlap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\collision.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bricksecretbox_1x1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
