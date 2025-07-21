@@ -6,8 +6,7 @@
 
 ### 游戏实机演示
 
-![](https://pic.nihaocoding.com/202507111754846.gif)
-*(展示为GIF图片，可能会显得比较卡顿)*
+https://github.com/user-attachments/assets/6e53fe93-b750-4e4a-b2ce-e0822873e43c
 
 ### 实际运行exe
 
